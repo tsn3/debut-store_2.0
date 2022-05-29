@@ -34,7 +34,7 @@
             {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             {% include 'image-style', image: block.settings.image, height: max_height, wrapper_id: wrapper_id, img_id: img_id %}
             <div id="{{ wrapper_id }}" class="feature-row__image-wrapper js">
-              <div style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;" data-image-loading-animation>
+              <div style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;" data-image-loading-animation>
                 <img id="{{ img_id }}"
                      class="feature-row__image lazyload"
                      data-src="{{ img_url }}"

@@ -9,7 +9,7 @@
     Get first variant, or deep linked one
   {% endcomment %}
   {%- assign current_variant = product.selected_or_first_available_variant -%}
-  {%- assign product_thumb_size = '110x110' -%}
+  
   {%- assign product_image_zoom_size = '1024x1024' -%}
   {%- assign product_image_scale = '2' -%}
   {%- assign enable_image_zoom = section.settings.enable_image_zoom -%}
@@ -139,11 +139,11 @@
     <div class="grid__item {{ product_description_width }}">
       <div class="product-single__meta">
         {% unless section_onboarding %}
-          {%- assign price = current_variant.price -%}
-          {%- assign available = current_variant.available -%}
+          
+          
         {% else %}
-          {%- assign price = 1999 -%}
-          {%- assign available = true -%}
+          
+          
         {% endunless %}
         <h2 class="visually-hidden">{{ 'sections.featured_product.title' | t }}</h2>
         <h3 class="h1 product-single__title">

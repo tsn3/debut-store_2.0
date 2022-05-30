@@ -1,23 +1,153 @@
 {
-  "name": "Index",
   "sections": {
     "hero": {
-      "type": "hero"
+      "type": "hero",
+      "settings": {
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "medium",
+        "text_size": "medium",
+        "title": "Image with text overlay",
+        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     },
     "feature-row": {
-      "type": "feature-row"
+      "type": "feature-row",
+      "settings": {
+        "layout": "left",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     },
     "feature-columns": {
-      "type": "feature-columns"
+      "type": "feature-columns",
+      "blocks": {
+        "304f6972-c31f-4523-a30b-e673bdee76f3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "183c3206-1a7c-4808-98f5-be3812c4fd97": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "2f93cc67-d250-4073-bfea-721dc2e56d9a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "304f6972-c31f-4523-a30b-e673bdee76f3",
+        "183c3206-1a7c-4808-98f5-be3812c4fd97",
+        "2f93cc67-d250-4073-bfea-721dc2e56d9a"
+      ],
+      "settings": {
+        "title": "Text columns with images",
+        "align_text": "left"
+      }
     },
     "collection": {
-      "type": "collection"
+      "type": "collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
+      }
     },
     "quotes": {
-      "type": "quotes"
+      "type": "quotes",
+      "blocks": {
+        "e184e71e-3f79-4de9-8990-fd6c3269c867": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
+          }
+        },
+        "627ea341-f97a-4aa1-8382-a12f943a3b0b": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
+          }
+        },
+        "2e45f1d1-112c-47ff-98ae-e04e8518d89a": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
+          }
+        }
+      },
+      "block_order": [
+        "e184e71e-3f79-4de9-8990-fd6c3269c867",
+        "627ea341-f97a-4aa1-8382-a12f943a3b0b",
+        "2e45f1d1-112c-47ff-98ae-e04e8518d89a"
+      ],
+      "settings": {
+        "title": "Testimonials"
+      }
     },
     "image-bar": {
-      "type": "image-bar"
+      "type": "image-bar",
+      "blocks": {
+        "338d3eca-29d7-46e2-a890-aa965ea9d84c": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        },
+        "0618fbc2-1294-4a53-87d8-9a8697a56cd9": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        },
+        "ad0d7240-a8f6-4f78-8078-69db4097ca7f": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "338d3eca-29d7-46e2-a890-aa965ea9d84c",
+        "0618fbc2-1294-4a53-87d8-9a8697a56cd9",
+        "ad0d7240-a8f6-4f78-8078-69db4097ca7f"
+      ],
+      "settings": {
+        "section_height": "medium"
+      }
     }
   },
   "order": [

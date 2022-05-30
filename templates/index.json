@@ -1,0 +1,31 @@
+{
+  "name": "Index",
+  "sections": {
+    "hero": {
+      "type": "hero"
+    },
+    "feature-row": {
+      "type": "feature-row"
+    },
+    "feature-columns": {
+      "type": "feature-columns"
+    },
+    "collection": {
+      "type": "collection"
+    },
+    "quotes": {
+      "type": "quotes"
+    },
+    "image-bar": {
+      "type": "image-bar"
+    }
+  },
+  "order": [
+    "hero",
+    "feature-row",
+    "feature-columns",
+    "collection",
+    "quotes",
+    "image-bar"
+  ]
+}

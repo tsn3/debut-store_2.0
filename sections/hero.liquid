@@ -75,7 +75,7 @@
           data-alt="{{ section.settings.image.alt | escape }}"
           {% endunless %}
          data-bg="{{ section.settings.image | image_url: width: 300, height: 300 }}"
-         data-bgset="{% include 'bgset', image: section.settings.image %}"
+         data-bgset="{% render 'bgset', image: section.settings.image %}"
          data-sizes="auto"
          data-parent-fit="cover"
          style="background-position: {{ section.settings.alignment }};"

@@ -3,13 +3,13 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/img_onion.png",
+        "image": "shopify://shop_images/img_onion.png",
         "alignment": "center",
         "hero_layout": "full_width",
         "hero_size": "medium",
         "text_size": "medium",
         "title": "Image with text overlay",
-        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
         "button_label": "",
         "button_link": ""
       }
@@ -17,10 +17,10 @@
     "feature-row": {
       "type": "feature-row",
       "settings": {
-        "image": "shopify:\/\/shop_images\/istockphoto-626538232-612x612.jpg",
+        "image": "shopify://shop_images/istockphoto-626538232-612x612.jpg",
         "layout": "left",
         "title": "Image with text",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
         "button_label": "",
         "button_link": ""
       }
@@ -33,7 +33,7 @@
           "settings": {
             "enable_image": true,
             "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -42,9 +42,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/istockphoto-626538232-612x612.jpg",
+            "image": "shopify://shop_images/istockphoto-626538232-612x612.jpg",
             "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -54,7 +54,7 @@
           "settings": {
             "enable_image": true,
             "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -87,21 +87,21 @@
         "e184e71e-3f79-4de9-8990-fd6c3269c867": {
           "type": "quote",
           "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name"
           }
         },
         "627ea341-f97a-4aa1-8382-a12f943a3b0b": {
           "type": "quote",
           "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name"
           }
         },
         "2e45f1d1-112c-47ff-98ae-e04e8518d89a": {
           "type": "quote",
           "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name"
           }
         }
@@ -119,7 +119,7 @@
       "type": "video",
       "settings": {
         "image_position": "center center",
-        "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "show_overlay": true,
         "style": "image_with_play",
         "height": "medium",
@@ -144,12 +144,12 @@
       "type": "map",
       "settings": {
         "heading": "Our store",
-        "address": "<p>123 Fake St.<br\/>Toronto, Canada<\/p><p>Mon - Fri, 10am - 9pm<br\/>Saturday, 11am - 9pm<br\/>Sunday, 11am - 5pm<\/p>",
+        "address": "<p>123 Fake St.<br/>Toronto, Canada</p><p>Mon - Fri, 10am - 9pm<br/>Saturday, 11am - 9pm<br/>Sunday, 11am - 5pm</p>",
         "map_address": "301 Front St W, Toronto",
         "button_text": "Get directions",
         "show_pin": true,
         "api_key": "",
-        "background_image": "shopify:\/\/shop_images\/1444904881_kress_salat.png",
+        "background_image": "shopify://shop_images/1444904881_kress_salat.png",
         "background_image_position": "center center"
       }
     },
@@ -160,7 +160,7 @@
           "type": "text",
           "settings": {
             "title": "Talk about your brand",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "width": "50%",
             "alignment": "center",
             "align_text": "left"
@@ -169,7 +169,7 @@
         "1653935975513325fd-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1444904881_kress_salat_5dbb052f-811b-4217-8d83-430b40e2bc38.png",
+            "image": "shopify://shop_images/1444904881_kress_salat_5dbb052f-811b-4217-8d83-430b40e2bc38.png",
             "width": "50%",
             "alignment": "center"
           }
@@ -189,7 +189,7 @@
         "16539360316e59e25d-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1444904881_kress_salat.png",
+            "image": "shopify://shop_images/1444904881_kress_salat.png",
             "alignment": "center center",
             "slide_title": "Image slide",
             "subheading": "Tell your brand's story through images",
@@ -233,7 +233,7 @@
         "1653936076e365bace-1": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-pixabay-60909.jpg",
+            "image": "shopify://shop_images/pexels-pixabay-60909.jpg",
             "link": ""
           }
         },
@@ -306,7 +306,7 @@
         "16539362188667ccfe-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/istockphoto-626538232-612x612.jpg",
+            "image": "shopify://shop_images/istockphoto-626538232-612x612.jpg",
             "alignment": "center",
             "link": "",
             "cta_label": ""

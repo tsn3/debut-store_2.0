@@ -46,7 +46,7 @@
             </div>
             <noscript>
               <p>
-                {{ block.settings.image | img_url: '480x480', scale: 2 | img_tag: block.settings.image.alt, 'feature-row__image' }}
+                {{ block.settings.image | image_url: width: 960, height: 960 | img_tag: block.settings.image.alt, 'feature-row__image' }}
               </p>
             </noscript>
           {% else %}

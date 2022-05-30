@@ -19,7 +19,7 @@
         </div>
 
         <noscript>
-          {{ section.settings.image | img_url: '600x600', scale: 2 | img_tag: section.settings.image.alt, 'feature-row__image' }}
+          {{ section.settings.image | image_url: width: 1200, height: 1200 | img_tag: section.settings.image.alt, 'feature-row__image' }}
         </noscript>
       {% else %}
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}

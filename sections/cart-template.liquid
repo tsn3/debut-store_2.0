@@ -22,7 +22,7 @@
               <td class="cart__meta small--text-left" data-cart-table-cell>
                 <div class="cart__product-information">
                   <div class="cart__image-wrapper">
-                    <img class="cart__image{% if item.image == null %} hide{% endif %}" src="{{ item | img_url: 'x190' }}" alt="{{ item.image.alt | escape }}" width="{{ section.settings.logo.width }}" height="{{ section.settings.logo.height }}" data-cart-item-image>
+                    <img class="cart__image{% if item.image == null %} hide{% endif %}" src="{{ item | image_url: height: 190 }}" alt="{{ item.image.alt | escape }}" width="{{ section.settings.logo.width }}" height="{{ section.settings.logo.height }}" data-cart-item-image>
                   </div>
                   <div>
                     <div class="list-view-item__title">

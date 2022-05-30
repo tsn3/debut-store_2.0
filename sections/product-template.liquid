@@ -45,7 +45,7 @@
 
       <noscript>
         {% capture product_image_size %}{{ height }}x{% endcapture %}
-        <img src="{{ featured_media | img_url: product_image_size, scale: product_image_scale }}" alt="{{ featured_media.alt }}" id="FeaturedMedia-{{ section.id }}" class="product-featured-media" style="max-width: {{ height }}px;">
+        <img src="{{ featured_media | img_url: product_image_size, scale: product_image_scale }}" height="{{ image.height }}" width="{{ image.width }}" alt="{{ featured_media.alt }}" id="FeaturedMedia-{{ section.id }}" class="product-featured-media" style="max-width: {{ height }}px;">
       </noscript>
 
       {% assign first_3d_model = product.media | where: "media_type", "model" | first %}
@@ -101,7 +101,7 @@
                         {%- endif -%}
                       {%- endcapture -%}
 
-                      <img class="product-single__thumbnail-image" src="{{ media.preview_image | img_url: '110x110', scale: 2 }}" alt="{{ thumbnailAlt }}">
+                      <img class="product-single__thumbnail-image" src="{{ media.preview_image | img_url: '110x110', scale: 2 }}" height="{{ image.height }}" width="{{ image.width }}" alt="{{ thumbnailAlt }}">
                       {%- if media.media_type == 'video' or media.media_type == 'external_video' -%}
                         <div class="product-single__thumbnail-badge">
                           {% include 'icon-video-badge-full-color' %}

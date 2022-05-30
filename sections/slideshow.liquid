@@ -18,6 +18,7 @@
 {%- assign text_alignments = section.settings.text_alignment | split: ' ' -%}
 {%- assign text_horizontal_alignment = text_alignments.first -%}
 {%- assign text_vertical_alignment = text_alignments.last | strip -%}
+{%- assign display_controls = display_controls | default: false -%}
 
 <div data-section-id="{{ section.id }}" data-section-type="slideshow-section">
   {%- if section.blocks.size > 0 -%}

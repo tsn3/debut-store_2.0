@@ -1,6 +1,8 @@
 <div class="page-width">
   <div class="contact-form form-vertical">
     {%- assign formId = 'ContactForm' -%}
+    {%- assign name = name | default: false -%}
+    {%- assign phone = phone | default: false -%}
     {% form 'contact', id: formId %}
       {% include 'form-status', form: form, form_id: formId %}
 
